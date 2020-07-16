@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement } from "./components/actions/counterAction";
 
-function App() {
+function App(props) {
   const count = useSelector((state) => state.counter);
   const dispatch = useDispatch();
 

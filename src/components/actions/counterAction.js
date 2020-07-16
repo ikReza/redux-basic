@@ -1,13 +1,9 @@
 import { INCREMENT, DECREMENT } from "../constants/counterConstant";
 
-export const increment = () => {
-  return {
-    type: INCREMENT,
-  };
+export const increment = (dispatch) => {
+  dispatch({ type: INCREMENT });
 };
 
-export const decrement = () => {
-  return {
-    type: DECREMENT,
-  };
+export const decrement = (dispatch) => {
+  dispatch({ type: DECREMENT });
 };
