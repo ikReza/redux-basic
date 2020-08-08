@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./Counter";
+import PostList from "./task1/PostList";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <PostList />
     </div>
   );
 };
